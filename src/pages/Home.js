@@ -7,7 +7,7 @@ const Home = () => {
             <img 
                 src = {logo} 
                 className='img'
-            />np
+            />
             <div className='home-text'>
                 <h3>Hey, I'm</h3>
                 <h1 className='name'>Purtha Shaariyaar</h1>
