@@ -100,17 +100,6 @@ img {
   }
 }
 
-.space {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-}
-
-@media screen and (min-width: 992px) {
-  .space {
-    width: 95vw;
-  }
-}
 
 .highlight {
   color: #43aeff;
@@ -285,4 +274,35 @@ textarea {
   border-radius: 5px;
   text-align: center;
   width: 15%;
+}
+
+.space {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+
+@media screen and (min-width: 992px) {
+  .space {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .home-text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
 }
